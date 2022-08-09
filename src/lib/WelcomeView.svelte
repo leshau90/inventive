@@ -13,7 +13,9 @@
       </a>
     </div>
     <h1>Vite + Svelte</h1>
-    <h4>google map examples</h4>
+    <h4> <span class="point-me">
+        google map lab
+    </span> </h4>
     <div class="card">
       <Counter />
     </div>
@@ -28,6 +30,9 @@
   </main>
   
   <style>
+    .point-me{
+        cursor:pointer;
+    }
     .logo {
       height: 6em;
       padding: 1.5em;
